@@ -1,0 +1,31 @@
+<html>
+<head>
+<script>
+(function() {
+    'use strict';
+	
+    // Your code here...
+(function (w,d,s,o,f,js,fjs) {
+      w['InProductHelp']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+      js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+      js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+    }(window, document, 'script', 'iph', '//iph.zoominsoftware.io/widget.js'));
+    iph('init', { id: 1, host: "hpe-tcaas.zoominsoftware.io" });
+				widgetSettings: {
+					includeQueryParams = true
+                 }	
+})();
+	
+</script>
+</head>
+<body>
+<h1><a href="." onclick="iph('toggle');return false;">Click here to open the Mirror Production environment widget</a></h1>
+
+<p>This is a mirror of the Production environment. All articles that you see here are live in the Zoomin Production repository.</p>
+
+<p>There is no page awareness in the Mirror Production widget. It is just one list of articles in alphabetical order by service, not by article.</p>
+
+<p>Note: The more articles that are added to the Production widget, the longer it takes for the list of articles to load.</p>
+
+</body>
+</html>
